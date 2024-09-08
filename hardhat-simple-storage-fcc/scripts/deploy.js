@@ -6,7 +6,7 @@ async function main() {
  const simpleStorage = await SimpleStorageFactory.deploy()
 
  console.log("Waiting for blocks confirmation...")
- await simpleStorage.deploymentTransaction().wait(3);
+ await simpleStorage.deploymentTransaction().wait(1);
  console.log(`Deployed contract to: ${await simpleStorage.getAddress()}`)
 
  const currentValue = await simpleStorage.retrieve()
