@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@chainlink/contracts": "^1.2.0",
+    "dotenv": "^16.4.5",
     "hardhat": "^2.22.10"
   },
   "devDependencies": {

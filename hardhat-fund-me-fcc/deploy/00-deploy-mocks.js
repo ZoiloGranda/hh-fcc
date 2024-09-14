@@ -13,9 +13,9 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
    log: true,
    args: [DECIMALS, INITIAL_ANSWER]
   })
+  log("Mocks Deployed")
+  log("--------------")
  }
- log("Mocks Deployed")
- log("--------------")
 }
 
 module.exports.tags = ["all", "mocks"]
