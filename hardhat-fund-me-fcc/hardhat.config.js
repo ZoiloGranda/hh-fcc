@@ -1,6 +1,7 @@
 require("dotenv").config()
 require("@nomicfoundation/hardhat-toolbox");
 require("hardhat-deploy")
+require("@nomicfoundation/hardhat-ethers")
 
 module.exports = {
  solidity: "0.8.7",
